@@ -1,0 +1,40 @@
+---
+title: "Code book"
+author: "Zeppelin3"
+date: "23 July 2018"
+output: html_document
+---
+
+Summary of tidydata.txt
+
+180 rows and 20 columns. Each row has averaged variables for each subject and each activity.
+
+Only the variables estimated from the mean and standard deviation are in the tidy data set
+
+
+Column names are:
+
+ [1] "activityId"                     
+ [2] "subjectId"                      
+ [3] "TimeBodyAccMagnitudeMean"       
+ [4] "TimeBodyAccMagnitudeStdDev"     
+ [5] "TimeGravityAccMagnitudeMean"    
+ [6] "TimeGravityAccMagnitudeStdDev"  
+ [7] "TimeBodyAccJerkMagnitudeMean"   
+ [8] "TimeBodyAccJerkMagnitudeStdDev" 
+ [9] "TimeBodyGyroMagnitudeMean"      
+[10] "TimeBodyGyroMagnitudeStdDev"    
+[11] "TimeBodyGyroJerkMagnitudeMean"  
+[12] "TimeBodyGyroJerkMagnitudeStdDev"
+[13] "FreqBodyAccMagnitudeMean"       
+[14] "FreqBodyAccMagnitudeStdDev"     
+[15] "FreqBodyAccJerkMagnitudeMean"   
+[16] "FreqBodyAccJerkMagnitudeStdDev" 
+[17] "FreqBodyGyroMagnitudeMean"      
+[18] "FreqBodyGyroMagnitudeStdDev"    
+[19] "FreqBodyGyroJerkMagnitudeMean"  
+[20] "FreqBodyGyroJerkMagnitudeStdDev"
+
+
+
+
